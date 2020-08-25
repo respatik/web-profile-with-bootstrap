@@ -1,0 +1,47 @@
+$primary-color: #f9ed69;
+$footer-color: #6a2c70;
+$font-color: #b83b5e;
+$footer-font-color: #f08a5d;
+$background-color: #ffcfdf;
+
+body{
+    background-color: $primary-color;
+    color: $font-color;
+    text-align: center;
+}
+
+.programmer-girl{
+    display: flex;
+    justify-content: flex-end;
+    background-color: $background-color;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin: auto 4em auto auto;
+}
+
+.profile{
+    .picture{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: $footer-color;
+    color: $footer-font-color;
+    width: 100%;
+    height: 10em;
+    margin-top: 3em;
+    .img{
+        width: 50px;
+        height: 50px;
+    }
+}
